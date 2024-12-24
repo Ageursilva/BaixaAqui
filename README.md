@@ -1,4 +1,4 @@
-# **baixeaqui**
+# **BaixeAqui**
 
 **baixeaqui** é uma API simples construída com FastAPI e yt-dlp para baixar playlists do YouTube em formato MP3 e compactá-las em um arquivo ZIP. Ela ignora erros como vídeos privados e continua o download dos próximos vídeos na playlist.
 
