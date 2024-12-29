@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube MP3 Download</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/script.js" defer></script>
+    <script src="https://use.fontawesome.com/releases/v6.5.2/js/all.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="logo-container">
+        <img src="/images/YouTube.png" alt="YouTube Logo" class="logo" />
+    </div>
+    <div class="container">
+        <div class="form-section">
+            <h1>Converta Vídeos do YouTube para MP3</h1>
+            <form id="download-form" action="/download_playlist/" method="post">
+                <input type="text" name="playlist_url" placeholder="URL da playlist ou música" required>
+                <button type="submit">Baixar</button>
+            </form>
+        </div>
+        <div class="status-section">
+            <div class="status-icon">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2v20M2 12h20"/>
+                </svg>
+            </div>
+            <div id="status-message">Aguardando link da download...</div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="foooter-container">
+        <div class="social-links">
+            <a class="social-icon" href="https://www.linkedin.com/in/ageursilva/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a class="social-icon" href="https://github.com/Ageursilva" target="_blank"><i class="fab fa-github"></i></a> 
+            <a class="fa-globe" href="https://ageu.tech/" target="_blank"><i class="fa-solid fa-globe"></i></a>
+        </div>
+    </div>
+</footer>
+</html>
